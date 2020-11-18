@@ -8,7 +8,11 @@ Sentencepiece tokenizer trained with tr-wiki data
 - bash wiki-preprocessing.sh
 - python train-sentencepiece.py
 
-# Output
+# Output Files
 
 - /model_vocab/wiki-tr.model
 - /model_vocab/wiki-tr.vocab
+
+# Test Sentencepiece
+
+- python src/sentencepiece_test.py
